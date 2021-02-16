@@ -65,4 +65,4 @@ class Item extends React.Component {
   }
 }
 
-export default About;
+export { About, Title };
