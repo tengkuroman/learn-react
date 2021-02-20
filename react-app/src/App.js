@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { About } from './page-1/About';
 import FruitList from './page-1/FruitList';
+import CardList from './page-1/CardList';
 
 let dataHargaBuah = [
   { nama: 'Semangka', harga: 10000, berat: 1000 },
@@ -16,6 +17,7 @@ function App() {
     <div>
       <About />
       <FruitList data={dataHargaBuah} />
+      <CardList />
     </div>
   );
 }
