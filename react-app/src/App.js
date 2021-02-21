@@ -3,6 +3,7 @@ import './App.css';
 import { About } from './page-1/About';
 import FruitList from './page-1/FruitList';
 import CardList from './page-1/CardList';
+import Timer from './page-2/Timer';
 
 let dataHargaBuah = [
   { nama: 'Semangka', harga: 10000, berat: 1000 },
@@ -15,9 +16,10 @@ let dataHargaBuah = [
 function App() {
   return (
     <div>
-      <About />
+      {/* <About />
       <FruitList data={dataHargaBuah} />
-      <CardList />
+      <CardList /> */}
+      <Timer />
     </div>
   );
 }
