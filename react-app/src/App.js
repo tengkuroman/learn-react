@@ -19,7 +19,7 @@ function App() {
       {/* <About />
       <FruitList data={dataHargaBuah} />
       <CardList /> */}
-      <Timer />
+      <Timer start={10} />
     </div>
   );
 }
