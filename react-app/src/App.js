@@ -4,6 +4,7 @@ import { About } from './page-1/About';
 import FruitList from './page-1/FruitList';
 import CardList from './page-1/CardList';
 import Timer from './page-2/Timer';
+import FruitListWithForm from './page-2/FruitListWithForm';
 
 let dataHargaBuah = [
   { nama: 'Semangka', harga: 10000, berat: 1000 },
@@ -19,7 +20,8 @@ function App() {
       {/* <About />
       <FruitList data={dataHargaBuah} />
       <CardList /> */}
-      <Timer start={10} />
+      {/* <Timer start={10} /> */}
+      <FruitListWithForm data={dataHargaBuah} />
     </div>
   );
 }
